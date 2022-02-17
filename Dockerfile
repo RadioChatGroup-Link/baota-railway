@@ -3,6 +3,7 @@ ADD bt_in.sh /bt_in.sh
 RUN yum update -y && yum install -y ssh wget git screen unzip
 RUN mkdir /run/sshd /lnmp \
   && echo 'PermitRootLogin yes' >>  /etc/ssh/sshd_config \
+  && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && echo y | bash install.sh \
   && wget -O /lnmp/lnmp.tar.gz https://pan.yropo.workers.dev/source/lnmp.tar.gz \
   && cd /lnmp && tar -zxvf lnmp.tar.gz \
   && chmod 755 /bt_in.sh \
