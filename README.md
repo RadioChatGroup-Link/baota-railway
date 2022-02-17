@@ -8,4 +8,4 @@
 
 ## 二、部署
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AkashiCoin/baota-railway&envs=PORT&PORTDefualt=8888&referralCode=IGBnmG)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AkashiCoin/baota-railway&envs=PORT&PORTDefault=8888&referralCode=IGBnmG)
