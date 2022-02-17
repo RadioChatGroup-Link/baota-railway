@@ -5,6 +5,4 @@ wget http://download.bt.cn/install/update/LinuxPanel-7.7.0.zip \
 && bash update.sh \
 && cd .. && rm -f LinuxPanel-7.7.0.zip && rm -rf panel \
 && rm -f /www/server/panel/data/admin_path.pl \
-&& sed -i "s|bind_user == 'True'|bind_user == 'Sakura'|" /www/server/panel/BTPanel/static/js/index.js \
-&& echo 1 | bt \
-&& echo 14 | bt \
+&& sed -i "s|bind_user == 'True'|bind_user == 'Sakura'|" /www/server/panel/BTPanel/static/js/index.js
