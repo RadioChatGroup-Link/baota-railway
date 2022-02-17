@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7.8.2003
 RUN yum update -y && yum install -y wget git screen unzip iproute openssh-server 
 RUN mkdir /run/sshd \
   && echo "wget -O /install.sh http://download.bt.cn/install/install_6.0.sh && echo y | bash /install.sh" >> /bt_in.sh \
