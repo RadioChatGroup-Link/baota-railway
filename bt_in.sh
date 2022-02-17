@@ -1,4 +1,4 @@
-wget -O install.sh http://download.bt.cn/install/install_6.0.sh && echo y | bash install.sh
+# wget -O install.sh http://download.bt.cn/install/install_6.0.sh && echo y | bash install.sh
 wget http://download.bt.cn/install/update/LinuxPanel-7.7.0.zip \
 && unzip LinuxPanel-7.7.0.zip \
 && cd panel \
