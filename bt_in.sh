@@ -7,3 +7,4 @@ wget http://download.bt.cn/install/update/LinuxPanel-7.7.0.zip \
 rm -f /www/server/panel/data/admin_path.pl
 sed -i "s|bind_user == 'True'|bind_user == 'Sakura'|" /www/server/panel/BTPanel/static/js/index.js
 /usr/sbin/sshd -D
+echo 14 | bt
