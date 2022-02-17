@@ -1,6 +1,6 @@
 FROM centos:centos7
 ADD bt_in.sh /bt_in.sh
-RUN yum update -y && yum install -y ssh wget git screen unzip
+RUN yum update -y && yum install -y ssh wget git screen unzip iproute openssh-server
 RUN mkdir /run/sshd /lnmp \
   && echo 'PermitRootLogin yes' >>  /etc/ssh/sshd_config \
   && chmod 755 /bt_in.sh \
