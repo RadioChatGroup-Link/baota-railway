@@ -1,5 +1,5 @@
-FROM centos:centos7
-RUN yum update -y && yum install -y ssh wget git screen unzip iproute openssh-server
+FROM debian
+RUN apt update -y && apt install -y ssh wget git screen unzip
 ADD bt_in.sh /bt_in.sh
 RUN mkdir /run/sshd /lnmp \
   && echo 'PermitRootLogin yes' >>  /etc/ssh/sshd_config \
