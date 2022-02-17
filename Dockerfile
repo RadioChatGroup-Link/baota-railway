@@ -1,5 +1,5 @@
 FROM debian
-RUN apt update -y && apt install -y ssh wget git screen unzip
+RUN apt update -y && apt install -y ssh wget git screen unzip curl
 ADD bt_in.sh /bt_in.sh
 RUN mkdir /run/sshd /lnmp \
   && echo 'PermitRootLogin yes' >>  /etc/ssh/sshd_config \
