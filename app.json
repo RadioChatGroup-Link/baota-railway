@@ -1,0 +1,8 @@
+{
+	"name": "baota",
+	"description": "Deploy baota on Heroku.",
+	"repository": "https://github.com/AkashiCoin/baota-railway",
+	"keywords": ["baota"],
+	"website": "https://",
+	"stack": "container"
+}
